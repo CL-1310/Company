@@ -24,8 +24,8 @@
         <nav>
 
             <a href="index.html">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Services</a>
 
         </nav>
         <div class="header-phone">
@@ -47,19 +47,19 @@
                 <form action="#" method="get">
 
                     <label for="companyName">Company name</label>
-                    <input size="15" name="companyName" id="companyName" required>
+                    <input size="23" name="companyName" id="companyName" required>
 
                     <label for="firstName">First name</label>
-                    <input size="15" name="firstName" id="firstName" required>
+                    <input size="23" name="firstName" id="firstName" required>
 
                     <label for="lastName">Last name</label>
-                    <input size="15" name="lastName" id="lastName" required>
+                    <input size="23" name="lastName" id="lastName" required>
 
                     <label for="tel">Phone number</label>
-                    <input type="tel" name="tel" id="tel">
+                    <input type="tel" size="23" name="tel" id="tel">
                     
                     <label for="email">Email address</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" size="23" name="email" id="email" required>
 
                     <select name="subject" id="subject">
                         <option value="unknown">Choose a subject</option>
@@ -70,22 +70,23 @@
 
                     <h3>Are you an existing customer ?</h3>
 
-                    <p>
-                        <label for="yes">Yes</label>
-                        <input type="radio" name="customer" id="yes">
-                    </p>
-                    <p>
-                        <label for="no">No</label>
-                        <input type="radio" name="customer" id="no">
-                    </p>
+                    <div class="answer">
+
+                        <p>
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="customer" id="yes">
+                        </p>
+                        <p>
+                            <label for="no">No</label>
+                            <input type="radio" name="customer" id="no">
+                        </p>
+
+                    </div>
 
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="20" rows="5" placeholder="Write your message here"></textarea>
 
-                    <label for="nl">Subscribe to the newsletter</label>
-                    <input type="checkbox" name="newsletter" id="nl">
-
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send" class="formButton">
 
                 </form>
 
