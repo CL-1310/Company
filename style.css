@@ -1,0 +1,185 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/poppins/Poppins-Medium.otf);
+}
+
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+}
+
+body {
+    background: black;
+}
+
+nav {
+    display: flex;
+    font-size: large;
+    gap: 6em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b744f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.header-logo img {
+    width: 20vh;
+    margin-top: .5em;
+}
+
+h1 {
+    font-size: x-large;
+    padding-left: .5em;
+}
+
+.header-phone {
+    font-size: large;
+}
+
+.heroSectionMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5em;
+    margin-top: 2em;
+}
+
+.heroSectionLeftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90vh;
+    margin-top: 2em;
+}
+
+.heroSection-text h2 {
+    font-size: 8vh;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+button {
+    background: #b744f5;
+    border-radius: 10px;
+    padding: .4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: large;
+    margin-top: 1.5em;
+    margin-left: 12em;
+}
+
+button:hover {
+    background: white;
+}
+
+.heroSection-images img {
+    width: 65vh;
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #b744f5;
+}
+
+#about{
+    margin: 10em;
+    line-height: 2em;
+}
+
+.container-allServices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.arrowUp img {
+    position: fixed;
+    top: 38em;
+    right: 2em;
+    width: 4em;
+}
+
+.service {
+    width: 45vh;
+    height: 100vh;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-shadow: 1px 1px 10px #b744f5;
+}
+
+.service img {
+    width: 25vh;
+    margin-left: 2.5em;
+    margin-top: 2em;
+}
+
+.service h3 {
+    text-align: center;
+    color: #b744f5;
+    margin-bottom: 1em;
+}
+
+.service:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.whyChooseUs {
+    margin-top: 8em;
+}
+
+ul {
+    list-style: "➤";
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+li {
+    padding-left: .7em;
+    padding-bottom: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    box-shadow: 0 -5px 5px -5px grey;
+    padding-top: 2em;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+    width: 150vh;
+}
+
+.footerAddress{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    font-size: small;
+    width: 30vh;
+}
